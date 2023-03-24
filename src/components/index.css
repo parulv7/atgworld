@@ -1,0 +1,83 @@
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.main_1{
+    position: absolute;
+left: 23rem;
+top: 22rem;
+
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 47px;
+}
+.main_11{
+    font-weight: 900;
+}
+.search{
+    border-radius: 5rem;
+    border: none;
+    font-weight: 800;
+}
+.head{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+/* main */
+/* nav2 */
+.d-flex{
+    list-style: none;
+}
+.border-b{
+    border-bottom: 1px solid #E0E0E0;
+}
+.gray{
+    color: #8A8A8A;
+}
+/* main */
+.stick{
+    display: none;
+}
+.card-text{
+    font-weight: 700;
+    color: black;
+    letter-spacing: 1.3px;
+
+
+}
+.head_0{
+    display: none;
+}
+.f_1{
+    display: none;
+}
+@media screen and (max-width : 768px){
+    .border-b{
+        display: none;
+    }
+    .stick{
+        position: sticky;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .head_0{
+        display: inline;
+        display: flex;
+        flex-direction: row;
+    }
+    .f_1{
+        display: inline-flex;
+    }
+    .mx56{
+        display: none;
+    }
+    .stick{
+        display: inline;
+        position: sticky;
+        top: 100;
+        
+    }
+}
